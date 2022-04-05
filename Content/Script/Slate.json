@@ -1,0 +1,27 @@
+{
+	"Name":"TA Tool",
+	"Size":"X=800,Y=600",
+	"FilePath":"F:/Unral_projects/PythonPlg/Content/Script/Slate.json",
+	"PythonCMD":"from SlateWindow import * window = SalteWindow()",
+	"Type":"SWindow",
+	 "Slots":
+	 [
+		{
+			"Name":"ClickButton",
+			"Type":"SButton",
+			"HA":"Center",
+			"VH":"Center",
+			"OnClick":"window.ClickButton_event()",
+			"Slots":
+			[
+				{
+					"Name":"ButonName",
+					"Type":"STextBlock",
+					"HA":"Center",
+					"VH":"Center",
+					"Text":"Test Code"
+				}
+			]
+		}
+	 ]
+}
